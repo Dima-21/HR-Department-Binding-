@@ -24,5 +24,15 @@ namespace HR_Department
         {
             InitializeComponent();
         }
+
+        private void depList_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            int k = depList.SelectedIndex+1;
+            XmlDataProvider xdp = (XmlDataProvider)this.FindResource("empProvider");
+            Binding b = new Binding();
+            b.Source = xdp;
+            b.XPath = $"employee[@dep=={k}]";
+            empList.SetBinding(ListBox.ItemsSourceProperty, b);
+        }
     }
 }

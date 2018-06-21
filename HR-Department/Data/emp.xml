@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <employee lastName="Петров" firstName="Петр" middleName="Петрович" birthday="01.03.1995" 
+            position="Бухгалтер" dep="1" photo="Images/1.jpg"/>
+  <employee lastName="Козлов" firstName="Сидор" middleName="Петрович" birthday="31.10.1986"
+          position="Кассир" dep="1" photo="Images/2.jpg"/>
+  <employee lastName="Буханкин" firstName="Васька" middleName="Петрович" birthday="05.03.1994"
+          position="Водитель" dep="4" photo="Images/3.jpg"/>
+  <employee lastName="Коровкин" firstName="Иван" middleName="Петрович" birthday="03.03.1985"
+          position="Программист" dep="3" photo="Images/4.jpg"/>
+  <employee lastName="Палочкин" firstName="Константин" middleName="Петрович" birthday="21.03.1992"
+          position="Админ" dep="3" photo="Images/5.jpg"/>
+</root>
